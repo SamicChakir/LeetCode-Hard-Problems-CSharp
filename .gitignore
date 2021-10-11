@@ -1,0 +1,65 @@
+﻿**/*.user
+**/Source/SonarQube
+**/*.pdb
+
+# User-specific files
+**/*.suo
+**/*.user
+**/*.userosscache
+**/*.sass-cache
+**/*.sln.docstates
+
+# Build results
+**/bin/Debug
+**/bin/Release
+**/obj/Debug
+**/obj/Release
+**/bin/x64/Debug
+**/bin/x64/Release
+**/obj/x64/Debug
+**/obj/x64/Release
+**/**/bin
+**/obj
+**/Properties/PublishProfiles
+
+# Visual Studio 2015 cache/options directory
+**/.vs
+
+# Visual Studio profiler
+**/*.psess
+**/*.vsp
+**/*.vspx
+**/*.sap
+
+# ReSharper is a .NET coding add-in
+*/**/_ReSharper*/
+*/**/*.[Rr]e[Ss]harper
+
+# NCrunch
+**/_NCrunch_*
+**/*.*crunch*.local.xml
+**/nCrunchTemp_*
+**/*.crunchsolution.cache
+
+# NuGet Packages
+**/*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages
+# NuGet v3's project.json files produces more ignoreable files
+**/*.nuget.props
+**/*.nuget.targets
+
+# LiveTest directory
+**/TestResults/*/*.coverage
+
+# node js install
+**/node_modules
+package-lock.json
+
+# generated Specflow files
+**/*.feature.cs
+
+
+# internal Git garbage
+**/*.orig
+
